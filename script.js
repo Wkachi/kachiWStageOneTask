@@ -1,11 +1,14 @@
 console.log('testing')
 
-const dropDownArrow = document.querySelector('#dropDownArrow')
-const weekDays = document.querySelector('.weekDays')
-const dayOfTheWeek = document.querySelector('.dayOfTheWeek')
-const eachDay = document.querySelector('.eachDay')
-const thursday = document.querySelector('#thursday')
-const timeSpace = document.querySelector('#timeSpace')
+
+const dropDownArrow = document.querySelector('[data-testid="dropDownArrow"]')
+
+const weekDays = document.querySelector('[data-testid="weekDays"]')
+
+const currentDayOfTheWeek = document.querySelector('[data-testid="currentDayOfTheWeek"]')
+
+
+const timeSpace = document.querySelector('[data-testid="currentUTCTime"]');
 
 
 dropDownArrow.addEventListener('click',() =>{
